@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 5000;
 ----------------------------- */
 app.use(cors({
   origin: [
-    "https://your-netlify-site.netlify.app", // ✅ Replace this with your actual Netlify site
+    "https://roaring-zabaione-cc06a9.netlify.app/", // ✅ Replace this with your actual Netlify site
     "http://localhost:3000", // for local frontend dev
     "http://localhost:5000"  // for backend testing
   ],
@@ -239,3 +239,4 @@ app.get("/", (req, res) => {
    ✅ 9️⃣ Start server
 ----------------------------- */
 app.listen(PORT, () => console.log(`✅ Server running at http://localhost:${PORT}`));
+
